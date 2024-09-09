@@ -1,6 +1,6 @@
 # fconv, dsx and friends
 
-* Back in my PhD-time at the Philipps Universität Marburg, I made some tool available as open source, namely fconv, dsx and hotspotsX.
+* Back in my PhD-time at the Philipps Universität Marburg, I made some tools available as open source, namely fconv, dsx and hotspotsX.
 * The tools were available under www.agklebe.de, but that's no longer the case (https://agklebe.pharmazie.uni-marburg.de/?id=11 only links publications, but not the tools).
 * As I got some requests to make it available again, I decided to put it here on GitHub. 
   * All code is provided as of 2012. It's horrible, unmaintainable spaghetti-code (don't look at it, or at least don't judge me on it), but it works fast and rock-solid.
@@ -26,3 +26,8 @@
   * bin folder with statically-linked 32bit and 64bit executables for linux (precompiled MacOs- and Windows-versions were available on the old www.agklebe.de but I currently had no suitable machine to generate these, so for now you have to rely on building from source, if you need it)
   * src folder with makefile (see INSTALL.txt)
   * An example mapping file ACC_DON_AnD_HYD_ARO_map.def
+* The folder read-potentials holds:
+  * Separate LICENSE files
+  * bin folder with statically-linked 32bit and 64bit executables for linux
+    * It's a small tool to print out a given set of DSX-pair-potentials in a human-readable format
+  * src folder with makefile
