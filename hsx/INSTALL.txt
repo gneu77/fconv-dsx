@@ -1,0 +1,68 @@
+
+#============================================================================
+# HotspotsX; Generating acnt contour maps based on DSX pair potentials
+#
+# Copyright (C) 2007, 2008, 2009, 2010, 2011, 2012  Gerd Neudert
+#
+# hsx is free software; you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 3 of the License, or (at your option) any later
+# version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, see <http:#www.gnu.org/licenses/>.
+#----------------------------------------------------------------------------
+#
+# author:      Gerd Neudert
+# mail:        gerd.neudert@gmail.com
+#---------------------------------------------------------------------------- 
+
+
+ You can find precompiled 32bit and 64bit executables for linux in the bin folder.
+ Use the following instructions to compile from source:
+
+
+ I am currently (read 2012) using gcc 4.5.x on Ubuntu and
+ gcc 4.5.x on Windows7 (MinGW) and Mac. 
+ The code compiles without any errors or warnings with options
+ '-pedantic -Wall -O2' on all 3 systems.
+ (project setup was done using NetBeans IDE).
+ 
+ Gerd Neudert, Marburg 30.09.2010
+
+
+Installation notes:
+===================
+
+ -> Compilation relies on the src folder being relative to ../../C_libs.
+
+ -> WARNING: The single-threaded version seems to be broken at the moment (does not compile).
+             Hence, only the multithreaded version (Release_MT) is woring for now.
+             Proper makefile for Windows and Mac are also currently not available.
+ 
+ -> Follow instructions for your target system:
+    --> Linux/Unix systems:
+        0.) Make sure the following packages are installed on your system:
+            - g++
+            - build-essential
+            - gcc-multilib
+            - g++-multilib
+        1.) Open a shell an go into the src directory
+        2.) The makefile is setup to generate 64Bit code and link statically.
+            If you want to generate 32Bit code or if you do not want
+            to link statically, you have to edit 'nbproject/Makefile-Release.mk'
+            and change the corresponding flags from 'CCFLAGS' and 'CXXFLAGS'.
+        3.) To make the fconv executable use the following command inside the src folder:
+            'make CONF=Release_MT build'
+        => Now you should have 'dist/Release/GNU-Linux-x86/hotspotsx_mt' as
+           single independent executable.
+        4.) If you have to clean your worktree use:
+            'make CONF=Release_MT clean'
+    
+Gerd Neudert 08.09.2024 : Slightly modified the instructions above, as part of making this
+                          publicly available again, after www.agklebe.de is no longer available.

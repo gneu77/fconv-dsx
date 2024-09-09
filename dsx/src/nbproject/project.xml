@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>dsx</name>
+            <make-project-type>0</make-project-type>
+            <c-extensions/>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h,hpp</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../../C_libs</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>Release</confElem>
+                <confElem>Debug</confElem>
+                <confElem>Release_debug</confElem>
+                <confElem>Release_nonstatic</confElem>
+                <confElem>Release_nonstatic_64</confElem>
+                <confElem>Mac_Release_nonstatic_64</confElem>
+                <confElem>Mac_Release_nonstatic_32</confElem>
+            </confList>
+        </data>
+    </configuration>
+</project>

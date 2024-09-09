@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="../C_libs" displayName="../C_libs" projectFiles="true">
+        <itemPath>../../C_libs/ELEMENT_DATA_GN.hpp</itemPath>
+        <itemPath>../../C_libs/atom_GN.cpp</itemPath>
+        <itemPath>../../C_libs/atom_GN.h</itemPath>
+        <itemPath>../../C_libs/atom_properties.h</itemPath>
+        <itemPath>../../C_libs/atom_properties_GN.cpp</itemPath>
+        <itemPath>../../C_libs/atom_properties_GN.h</itemPath>
+        <itemPath>../../C_libs/bitmatrix_GN.hpp</itemPath>
+        <itemPath>../../C_libs/bron_kerbosch_GN.hpp</itemPath>
+        <itemPath>../../C_libs/cluster_GN.hpp</itemPath>
+        <itemPath>../../C_libs/crypto_GN.hpp</itemPath>
+        <itemPath>../../C_libs/crystallizer_GN.cpp</itemPath>
+        <itemPath>../../C_libs/crystallizer_GN.h</itemPath>
+        <itemPath>../../C_libs/delaunay_GN.cpp</itemPath>
+        <itemPath>../../C_libs/delaunay_GN.h</itemPath>
+        <itemPath>../../C_libs/elements_GN.hpp</itemPath>
+        <itemPath>../../C_libs/files_GN.cpp</itemPath>
+        <itemPath>../../C_libs/files_GN.h</itemPath>
+        <itemPath>../../C_libs/galois_table.h</itemPath>
+        <itemPath>../../C_libs/gauss_GN.hpp</itemPath>
+        <itemPath>../../C_libs/grid_GN.hpp</itemPath>
+        <itemPath>../../C_libs/linalg_GN.hpp</itemPath>
+        <itemPath>../../C_libs/message_GN.hpp</itemPath>
+        <itemPath>../../C_libs/mins.h</itemPath>
+        <itemPath>../../C_libs/mins_ndim.h</itemPath>
+        <itemPath>../../C_libs/molecule_GN.cpp</itemPath>
+        <itemPath>../../C_libs/molecule_GN.h</itemPath>
+        <itemPath>../../C_libs/nr3.h</itemPath>
+        <itemPath>../../C_libs/o_lock_GN.hpp</itemPath>
+        <itemPath>../../C_libs/optalign_GN.hpp</itemPath>
+        <itemPath>../../C_libs/protein_GN.cpp</itemPath>
+        <itemPath>../../C_libs/protein_GN.h</itemPath>
+        <itemPath>../../C_libs/rmsdcalc_GN.hpp</itemPath>
+        <itemPath>../../C_libs/seqalign_GN.hpp</itemPath>
+        <itemPath>../../C_libs/socket_GN.hpp</itemPath>
+        <itemPath>../../C_libs/stl_ptr_GN.hpp</itemPath>
+        <itemPath>../../C_libs/string_fu_GN.hpp</itemPath>
+        <itemPath>../../C_libs/structure_GN.cpp</itemPath>
+        <itemPath>../../C_libs/structure_GN.h</itemPath>
+        <itemPath>../../C_libs/structure_additional_GN.cpp</itemPath>
+        <itemPath>../../C_libs/structure_additional_GN.h</itemPath>
+        <itemPath>../../C_libs/structure_grid_GN.hpp</itemPath>
+        <itemPath>../../C_libs/timer_GN.hpp</itemPath>
+        <itemPath>../../C_libs/vertices_GN.hpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>hotspotsX.cpp</itemPath>
+      <itemPath>hotspotsX_mt.cpp</itemPath>
+      <itemPath>hotspotsX_omp.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../C_libs</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="hotspotsX_mt.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx</output>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX_mt.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="OMP_Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS -fopenmp</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_omp</output>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="OMP_Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_omp</output>
+          <commandLine>-fopenmp</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-fopenmp</commandLine>
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="Release_speedtest" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS -D_SPEEDTEST</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_speedtest</output>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX_mt.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Release_MT" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Debug_MT" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-static -pedantic -Wall -m32 -D_LINUX_OS -pthread</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Release_MT_nonstatic" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-pedantic -Wall -m32 -D_LINUX_OS</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Release_MT_nonstatic_64" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-pedantic -Wall -D_LINUX_OS</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Mac_Release_MT_nonstatic_64" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-pedantic -Wall</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+    <conf name="Mac_Release_MT_nonstatic_32" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>../../C_libs</pElem>
+          </incDir>
+          <commandLine>-pedantic -Wall</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hotspotsx_mt</output>
+          <commandLine>-pthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="hotspotsX.cpp" ex="true" tool="1">
+      </item>
+      <item path="hotspotsX_mt.cpp" ex="false" tool="1">
+        <ccTool>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </item>
+      <item path="hotspotsX_omp.cpp" ex="true" tool="1">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

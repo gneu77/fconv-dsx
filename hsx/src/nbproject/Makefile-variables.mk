@@ -1,0 +1,96 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+CND_BUILDDIR=build
+CND_DISTDIR=dist
+# Debug configuration
+CND_PLATFORM_Debug=GNU-Linux-x86
+CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
+CND_ARTIFACT_NAME_Debug=hotspotsx
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/hotspotsx
+CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Debug=hotspotsx.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/hotspotsx.tar
+# Release configuration
+CND_PLATFORM_Release=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release=hotspotsx
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/hotspotsx
+CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release=hotspotsx.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/hotspotsx.tar
+# OMP_Debug configuration
+CND_PLATFORM_OMP_Debug=GNU-Linux-x86
+CND_ARTIFACT_DIR_OMP_Debug=dist/OMP_Debug/GNU-Linux-x86
+CND_ARTIFACT_NAME_OMP_Debug=hotspotsx_omp
+CND_ARTIFACT_PATH_OMP_Debug=dist/OMP_Debug/GNU-Linux-x86/hotspotsx_omp
+CND_PACKAGE_DIR_OMP_Debug=dist/OMP_Debug/GNU-Linux-x86/package
+CND_PACKAGE_NAME_OMP_Debug=hotspotsx.tar
+CND_PACKAGE_PATH_OMP_Debug=dist/OMP_Debug/GNU-Linux-x86/package/hotspotsx.tar
+# OMP_Release configuration
+CND_PLATFORM_OMP_Release=GNU-Linux-x86
+CND_ARTIFACT_DIR_OMP_Release=dist/OMP_Release/GNU-Linux-x86
+CND_ARTIFACT_NAME_OMP_Release=hotspotsx_omp
+CND_ARTIFACT_PATH_OMP_Release=dist/OMP_Release/GNU-Linux-x86/hotspotsx_omp
+CND_PACKAGE_DIR_OMP_Release=dist/OMP_Release/GNU-Linux-x86/package
+CND_PACKAGE_NAME_OMP_Release=hotspotsx.tar
+CND_PACKAGE_PATH_OMP_Release=dist/OMP_Release/GNU-Linux-x86/package/hotspotsx.tar
+# Release_speedtest configuration
+CND_PLATFORM_Release_speedtest=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release_speedtest=dist/Release_speedtest/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release_speedtest=hotspotsx_speedtest
+CND_ARTIFACT_PATH_Release_speedtest=dist/Release_speedtest/GNU-Linux-x86/hotspotsx_speedtest
+CND_PACKAGE_DIR_Release_speedtest=dist/Release_speedtest/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release_speedtest=hotspotsx.tar
+CND_PACKAGE_PATH_Release_speedtest=dist/Release_speedtest/GNU-Linux-x86/package/hotspotsx.tar
+# Release_MT configuration
+CND_PLATFORM_Release_MT=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release_MT=dist/Release_MT/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release_MT=hotspotsx_mt
+CND_ARTIFACT_PATH_Release_MT=dist/Release_MT/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Release_MT=dist/Release_MT/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release_MT=hotspotsx.tar
+CND_PACKAGE_PATH_Release_MT=dist/Release_MT/GNU-Linux-x86/package/hotspotsx.tar
+# Debug_MT configuration
+CND_PLATFORM_Debug_MT=GNU-Linux-x86
+CND_ARTIFACT_DIR_Debug_MT=dist/Debug_MT/GNU-Linux-x86
+CND_ARTIFACT_NAME_Debug_MT=hotspotsx_mt
+CND_ARTIFACT_PATH_Debug_MT=dist/Debug_MT/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Debug_MT=dist/Debug_MT/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Debug_MT=hotspotsx.tar
+CND_PACKAGE_PATH_Debug_MT=dist/Debug_MT/GNU-Linux-x86/package/hotspotsx.tar
+# Release_MT_nonstatic configuration
+CND_PLATFORM_Release_MT_nonstatic=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release_MT_nonstatic=dist/Release_MT_nonstatic/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release_MT_nonstatic=hotspotsx_mt
+CND_ARTIFACT_PATH_Release_MT_nonstatic=dist/Release_MT_nonstatic/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Release_MT_nonstatic=dist/Release_MT_nonstatic/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release_MT_nonstatic=hotspotsx.tar
+CND_PACKAGE_PATH_Release_MT_nonstatic=dist/Release_MT_nonstatic/GNU-Linux-x86/package/hotspotsx.tar
+# Release_MT_nonstatic_64 configuration
+CND_PLATFORM_Release_MT_nonstatic_64=GNU-Linux-x86
+CND_ARTIFACT_DIR_Release_MT_nonstatic_64=dist/Release_MT_nonstatic_64/GNU-Linux-x86
+CND_ARTIFACT_NAME_Release_MT_nonstatic_64=hotspotsx_mt
+CND_ARTIFACT_PATH_Release_MT_nonstatic_64=dist/Release_MT_nonstatic_64/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Release_MT_nonstatic_64=dist/Release_MT_nonstatic_64/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Release_MT_nonstatic_64=hotspotsx.tar
+CND_PACKAGE_PATH_Release_MT_nonstatic_64=dist/Release_MT_nonstatic_64/GNU-Linux-x86/package/hotspotsx.tar
+# Mac_Release_MT_nonstatic_64 configuration
+CND_PLATFORM_Mac_Release_MT_nonstatic_64=GNU-Linux-x86
+CND_ARTIFACT_DIR_Mac_Release_MT_nonstatic_64=dist/Mac_Release_MT_nonstatic_64/GNU-Linux-x86
+CND_ARTIFACT_NAME_Mac_Release_MT_nonstatic_64=hotspotsx_mt
+CND_ARTIFACT_PATH_Mac_Release_MT_nonstatic_64=dist/Mac_Release_MT_nonstatic_64/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Mac_Release_MT_nonstatic_64=dist/Mac_Release_MT_nonstatic_64/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Mac_Release_MT_nonstatic_64=hotspotsx.tar
+CND_PACKAGE_PATH_Mac_Release_MT_nonstatic_64=dist/Mac_Release_MT_nonstatic_64/GNU-Linux-x86/package/hotspotsx.tar
+# Mac_Release_MT_nonstatic_32 configuration
+CND_PLATFORM_Mac_Release_MT_nonstatic_32=GNU-Linux-x86
+CND_ARTIFACT_DIR_Mac_Release_MT_nonstatic_32=dist/Mac_Release_MT_nonstatic_32/GNU-Linux-x86
+CND_ARTIFACT_NAME_Mac_Release_MT_nonstatic_32=hotspotsx_mt
+CND_ARTIFACT_PATH_Mac_Release_MT_nonstatic_32=dist/Mac_Release_MT_nonstatic_32/GNU-Linux-x86/hotspotsx_mt
+CND_PACKAGE_DIR_Mac_Release_MT_nonstatic_32=dist/Mac_Release_MT_nonstatic_32/GNU-Linux-x86/package
+CND_PACKAGE_NAME_Mac_Release_MT_nonstatic_32=hotspotsx.tar
+CND_PACKAGE_PATH_Mac_Release_MT_nonstatic_32=dist/Mac_Release_MT_nonstatic_32/GNU-Linux-x86/package/hotspotsx.tar
